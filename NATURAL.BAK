@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+clrscr();
+printf("enter value of a,b,c");
+scanf("%d %d",&a,&b);
+printf("before swapping\nfirst integer=%d\nsecond integer=%d\n",a,b);
+c=a;
+a=b;
+b=c;
+printf("after swapping\nfirst integer=%d\nsecond integer=%d",a,b);
+getch();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

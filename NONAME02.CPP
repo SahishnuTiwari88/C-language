@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+#include<dos.h>
+void main()
+{
+clrscr();
+int gdriver = DETECT,gmode;
+int x,y,i;
+	initgraph(&gdriver,&gmode,"C:\\TC\\BGI");
+	x=getmaxx()/2;
+	y=getmaxy()/2;
+	for(i=40;i<200;i++)
+	{
+		delay(10000);
+		setcolor(i/50);
+		arc(x,y,0,180,i-50);}}
